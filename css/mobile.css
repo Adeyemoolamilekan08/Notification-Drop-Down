@@ -1,0 +1,39 @@
+@media (max-width: 952px) {
+  body header {
+    flex-direction: column;
+    position: relative;
+    padding: 15px 3%;
+  }
+
+ 
+
+
+
+  body header #header-left #icons-hid i {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 1.5rem;
+  }
+
+  
+  body header .header-middle {
+    /* width: 100%; */
+    display: none;
+  }
+
+  .logo-container {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    padding-right: -12rem;
+}
+
+.logo-img {
+    margin-bottom: 10px;
+}
+
+
+
+}
